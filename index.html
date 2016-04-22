@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>StarForge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<script>window.$ = window.jQuery = require('./js/jquery.min.js');</script>
+		<script src="js/three.min.js"></script>
+		<script src="js/controls/TrackballControls.js"></script>
+    <script src="js/game.js"></script>
+
+		<div id="debug"><strong>Node <script>document.write(process.versions.node)</script>, Chrome <script>document.write(process.versions.chrome)</script>, Electron <script>document.write(process.versions.electron)</script>.</strong><br/><div id="debug2"></div><div id="debug3"></div><div id="debug4"></div><div id="debug5"></div><div id="debug6"></div><div id="debug7"></div><div id="debug8"></div></div>
+    <div id="container"></div>
+
+    <script>
+      init();
+      animate();
+    </script>
+	</body>
+</html>
